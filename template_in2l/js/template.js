@@ -3,8 +3,6 @@
 *  Put your code here for adding your name to the front of the page title
 *
 */
-var title = document.title;
-document.title = "Drew " + title;
 
 
 runFirstQuestion();
@@ -12,13 +10,7 @@ runSecondQuestion();
 
 
 function runFirstQuestion() {
-var output = 0;
 
-var numArray = [5, 6, 4, 6, 7, 0, 1, 3, 5, 2, 3];
-
-for (var i = 0; i < numArray.length; i++) {
-  output += numArray[i];
-}
   /**
   *
   *  Put your code here for the first question
@@ -27,8 +19,6 @@ for (var i = 0; i < numArray.length; i++) {
   *
   */
 
-
-  document.getElementById("first-question").innerHTML = "Output is: " + output;
 }
 
 function runSecondQuestion() {
